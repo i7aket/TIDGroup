@@ -204,7 +204,12 @@ button {
     border-radius: 20px;
     background-color: rgba(33, 166, 206, 0.301);
 }
-.slick-dots{
+.slick-dots {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 0;
+    right: 0;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -861,6 +866,9 @@ button {
         left: 30px;
         right: 30px;
         padding: 10px;
+    }
+    .slick-dots {
+        bottom: 70px;
     }
     .goal__inner{
         flex-direction: column;
